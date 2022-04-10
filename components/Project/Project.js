@@ -39,10 +39,16 @@ function Project(props) {
               </div>
 
               <div className="my-6 w-full">
-                <a target="_blank" className={style.button} href="">
+                <a
+                  rel="noreferrer"
+                  target="_blank"
+                  className={style.button}
+                  href=""
+                >
                   Check Project
                 </a>
                 <a
+                  rel="noreferrer"
                   target="_blank"
                   className={style.button1}
                   href="https://github.com/Sagarbawane/netflix-clone"
@@ -65,10 +71,16 @@ function Project(props) {
               </div>
 
               <div className="my-6 w-full">
-                <a target="_blank" className={style.button} href="">
+                <a
+                  rel="noreferrer"
+                  target="_blank"
+                  className={style.button}
+                  href=""
+                >
                   Check Project
                 </a>
                 <a
+                  rel="noreferrer"
                   target="_blank"
                   className={style.button1}
                   href="https://github.com/Sagarbawane/whatsapp-clone/blob"
@@ -91,10 +103,16 @@ function Project(props) {
               </div>
 
               <div className="my-6 w-full">
-                <a target="_blank" className={style.button} href="">
+                <a
+                  rel="noreferrer"
+                  target="_blank"
+                  className={style.button}
+                  href=""
+                >
                   Check Project
                 </a>
                 <a
+                  rel="noreferrer"
                   target="_blank"
                   className={style.button1}
                   href="https://github.com/Sagarbawane/tinder-clone/"
@@ -121,6 +139,7 @@ function Project(props) {
 
               <div className="my-6 w-full">
                 <a
+                  rel="noreferrer"
                   target="_blank"
                   className={style.button}
                   href="https://app.mycycles.in"
@@ -146,6 +165,7 @@ function Project(props) {
 
               <div className="my-6 w-full">
                 <a
+                  rel="noreferrer"
                   target="_blank"
                   className={style.button}
                   href="https://sypto.xyz"
@@ -170,6 +190,7 @@ function Project(props) {
 
               <div className="my-6 w-full">
                 <a
+                  rel="noreferrer"
                   target="_blank"
                   className={style.button}
                   href="https://app.mycycles.in"
@@ -193,10 +214,16 @@ function Project(props) {
               </div>
 
               <div className="my-6 w-full">
-                <a target="_blank" className={style.button} href="">
+                <a
+                  rel="noreferrer"
+                  target="_blank"
+                  className={style.button}
+                  href=""
+                >
                   Check Project
                 </a>
                 <a
+                  rel="noreferrer"
                   target="_blank"
                   className={style.button1}
                   href="https://github.com/Sagarbawane/cred-clone"
@@ -221,6 +248,7 @@ function Project(props) {
 
               <div className="my-6 w-full">
                 <a
+                  rel="noreferrer"
                   target="_blank"
                   className={style.button}
                   href="https://sypto.xyz"
@@ -242,10 +270,16 @@ function Project(props) {
               </div>
 
               <div className="my-6 w-full">
-                <a target="_blank" className={style.button} href="">
+                <a
+                  rel="noreferrer"
+                  target="_blank"
+                  className={style.button}
+                  href=""
+                >
                   Check Project
                 </a>
                 <a
+                  rel="noreferrer"
                   target="_blank"
                   className={style.button1}
                   href="https://github.com/Sagarbawane/cred-clone"
