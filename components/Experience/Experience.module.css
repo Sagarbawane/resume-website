@@ -1,0 +1,41 @@
+@import "../../requirement/all.css";
+.episode {
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  position: relative;
+}
+
+.episodeNumber {
+  font-size: 10vw;
+  font-weight: 600;
+  padding: 10px 0;
+  position: sticky;
+  top: 0;
+  text-align: center;
+  height: calc(15vw + 20px);
+  transition: all 0.2s ease-in;
+}
+
+.episodeContent {
+  border-top: 2px solid #fff;
+  display: grid;
+  grid-template-columns: 1fr 4fr;
+  grid-gap: 10px;
+  padding: 15px 0;
+}
+
+.text2{
+font-family: 'Work Sans', sans-serif;
+}
+
+@media (max-width: 600px) {
+  .episodeContent {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 576px) {
+  .episodeContent .story {
+    font-size: 15px;
+  }
+}

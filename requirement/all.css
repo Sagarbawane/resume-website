@@ -1,0 +1,14 @@
+
+
+  @font-face {
+    font-family: 'Work Sans';
+    src: local('work-sans'), url(./Work_Sans/static/WorkSans-Regular.ttf) format('truetype');
+  }
+  @font-face {
+    font-family: 'Work Sans';
+    src: local('work-sans'), url(./Work_Sans/static/WorkSans-Medium.ttf) format('truetype');
+  }
+    @font-face {
+    font-family: 'Kaushan Script';
+    src: local('kaushan-script'), url(./Kaushan_Script/KaushanScript-Regular.ttf) format('truetype');
+  }

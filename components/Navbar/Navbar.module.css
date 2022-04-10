@@ -1,0 +1,116 @@
+@import "../../requirement/all.css";
+.nWrapper {
+  height: 10vh;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 2rem;
+  
+  top: 0;
+
+}
+
+.text{
+font-family: 'Kaushan Script', cursive;
+}
+.nLeft {
+  flex: 1;
+  align-items: center;
+  justify-content: left;
+  display: flex;
+  gap: 2rem;
+}
+
+.nName {
+  font-size: 1.3rem;
+  font-weight: bold;
+}
+.nRight {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  font-weight: 400;
+}
+
+.nList {
+  flex: 10
+  
+}
+.nList > ul {
+  display: flex;
+  gap: 4rem;
+  margin-right:0px;
+  text-decoration: none;
+}
+.nList > ul > li > a{
+  text-decoration: none;
+font-family: 'Work Sans', sans-serif;
+color: #000000;
+font-size:16px;
+font-weight: bold;
+}
+
+.nList > ul :hover {
+  color: #f76236;
+  cursor: pointer;
+}
+
+.nButton {
+  flex: 2;
+}
+.button {
+    background: #f76236;
+
+    border-radius: 34px;
+    border: none;
+    color: white;
+    font-size: 16px;
+    padding: 11px 26px 11px 26px;
+  }
+  
+  .button:hover {
+    background: white;
+    cursor: pointer;
+    border: 1px solid #f76236;
+    color: #f76236;
+  }
+
+@media screen and (max-width: 480px) {
+  .nList {
+    display: none;
+  }
+  .nButton {
+  flex: 1;
+}
+  .button {
+    background: #f76236;
+
+    border-radius: 34px;
+    border: none;
+    color: white;
+    font-size: 12px;
+    padding: 8px 6px 8px 6px;
+  }
+  
+  .button:hover {
+    background: white;
+    cursor: pointer;
+    border: 1px solid #f76236;
+    color: #f76236;
+  }
+  .nList {
+  flex: 1
+  
+}
+.nRight {
+  flex:0.5;
+  display: flex;
+  align-items: left;
+  justify-content: flex-end;
+  font-weight: 400;
+}
+.nName {
+  font-size: 10px;
+  font-weight: bold;
+}
+}
