@@ -8,7 +8,7 @@ import { AiFillGithub } from "react-icons/ai";
 const Contact = () => {
   return (
     <div id="contact" className="w-full md:w-10/12 mx-auto  mt-[100px]">
-      <div class="flex flex-col md:flex-row justify-between ml-8 md:ml-auto py-[100px]">
+      <div className="flex flex-col md:flex-row justify-between ml-8 md:ml-auto py-[100px]">
         <div className="basis-4/12">
           <div
             className={`${styles.text2}  my-4 text-lg md:text-lg text-left md:text-center font-bold leading-5 text-[#fff]`}

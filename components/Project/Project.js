@@ -26,7 +26,7 @@ function Project(props) {
         My Work & Projects
       </div>
 
-      <div class="flex flex-col md:flex-row justify-between mt-[100px]">
+      <div className="flex flex-col md:flex-row justify-between mt-[100px]">
         <div className={` md:basis-4/12 ${style.container}`}>
           <div className={style.card}>
             <div className={style.image}>
@@ -106,7 +106,7 @@ function Project(props) {
           </div>
         </div>
       </div>
-      <div class="flex flex-col md:flex-row justify-between mt-[5px] md:mt-[50px]">
+      <div className="flex flex-col md:flex-row justify-between mt-[5px] md:mt-[50px]">
         <div className={` md:basis-4/12 ${style.container}`}>
           <div className={style.card}>
             <div className={style.image}>
@@ -181,7 +181,7 @@ function Project(props) {
           </div>
         </div>
       </div>
-      <div class="flex flex-col md:flex-row justify-between mt-[5px] md:mt-[50px]">
+      <div className="flex flex-col md:flex-row justify-between mt-[5px] md:mt-[50px]">
         <div className={` md:basis-4/12 ${style.container}`}>
           <div className={style.card}>
             <div className={style.image}>

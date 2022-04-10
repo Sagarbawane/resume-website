@@ -16,8 +16,8 @@ const Aboutus = props => {
         A bit about me
       </div>
 
-      <div class="flex flex-col md:flex-row">
-        <div class="basis-1/4 md:basis-6/12">
+      <div className="flex flex-col md:flex-row">
+        <div className="basis-1/4 md:basis-6/12">
           <div
             className={`${style.dis} my-4  ${
               styles.text2
@@ -61,7 +61,7 @@ const Aboutus = props => {
             </div>
           </div>
         </div>
-        <div class=" md:basis-6/12">
+        <div className=" md:basis-6/12">
           <div className=" w-full md:w-10/12 mx-auto my-10">
             <Image src={dev} alt="dev" />
           </div>
