@@ -12,6 +12,8 @@ import cycle from "../../requirement/images5.jpeg";
 import spotify from "../../requirement/spot.jpg";
 import solar from "../../requirement/projj.png";
 import uber from "../../requirement/uber2.jpeg";
+import nft from "../../requirement/nft.png";
+import insta from "../../requirement/insta.jpeg";
 
 function Project(props) {
   return (
@@ -289,6 +291,73 @@ function Project(props) {
             </div>
           </div>
         </div>
+      </div>
+      <div className="flex flex-col md:flex-row justify-start mt-[5px] md:mt-[50px]">
+        <div className={` md:basis-4/12 ${style.container}`}>
+          <div className={style.card}>
+            <div className={style.image}>
+              <Image src={nft} alt="" />
+            </div>
+            <div className={style.content}>
+              <div className={"px-4"}>
+                This is nft website from where you can open nft app which is
+                build using react native
+              </div>
+
+              <div className="my-6 w-full">
+                <a
+                  rel="noreferrer"
+                  target="_blank"
+                  className={style.button}
+                  href="https://nft-website-frontend.netlify.app/"
+                >
+                  Check Project
+                </a>
+                <a
+                  rel="noreferrer"
+                  target="_blank"
+                  className={style.button1}
+                  href="https://github.com/Sagarbawane/nft-website"
+                >
+                  Get Code
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className={` md:basis-4/12 ${style.container}`}>
+          <div className={style.card}>
+            <div className={style.image}>
+              <Image src={insta} alt="" />
+            </div>
+            <div className={style.content}>
+              <div className={"px-4"}>
+                This is instagram-app clone build using react native and
+                Deployed on expo
+              </div>
+
+              <div className="my-6 w-full">
+                <a
+                  rel="noreferrer"
+                  target="_blank"
+                  className={style.button}
+                  href=" https://expo.dev/@sagarlm/instagram-clone?serviceType=classic&distribution=expo-go"
+                >
+                  Check Project
+                </a>
+                <a
+                  rel="noreferrer"
+                  target="_blank"
+                  className={style.button1}
+                  href="https://github.com/Sagarbawane/instagram-clone"
+                >
+                  Get Code
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className={` md:basis-4/12 ${style.container}`}></div>
       </div>
     </div>
   );

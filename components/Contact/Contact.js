@@ -7,7 +7,10 @@ import { GrMail } from "react-icons/gr";
 import { AiFillGithub } from "react-icons/ai";
 const Contact = () => {
   return (
-    <div id="contact" className="w-full md:w-10/12 mx-auto  mt-[100px]">
+    <div
+      id="contact"
+      className="w-full md:w-10/12 mx-auto mt-[10px]  md:mt-[100px]"
+    >
       <div className="flex flex-col md:flex-row justify-between ml-8 md:ml-auto py-[100px]">
         <div className="basis-4/12">
           <div
