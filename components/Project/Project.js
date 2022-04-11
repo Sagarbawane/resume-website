@@ -38,7 +38,7 @@ function Project(props) {
                 movie-trailer api
               </div>
 
-              <div className="my-6 w-full">
+              <div className="my-6 w-full ">
                 <a
                   rel="noreferrer"
                   target="_blank"
@@ -183,9 +183,8 @@ function Project(props) {
             </div>
             <div className={style.content}>
               <div className={"px-4"}>
-                This is cycle app which help you to choose your stock by
-                monitoring the performance.It gives the signal when to buy and
-                when to sold.
+                This is ssr website which is develop to get traffic on cycle
+                app. I had worked to improve seo and user entraction.
               </div>
 
               <div className="my-6 w-full">
@@ -193,7 +192,7 @@ function Project(props) {
                   rel="noreferrer"
                   target="_blank"
                   className={style.button}
-                  href="https://app.mycycles.in"
+                  href="https://mycycles.in"
                 >
                   Check Project
                 </a>
@@ -210,7 +209,8 @@ function Project(props) {
             </div>
             <div className={style.content}>
               <div className={"px-4"}>
-                This is cred clone project which i develop with reactjs .
+                This is spotify clone project which is develop using spotify api
+                with nextjs and tailwind css .
               </div>
 
               <div className="my-6 w-full">
@@ -218,7 +218,7 @@ function Project(props) {
                   rel="noreferrer"
                   target="_blank"
                   className={style.button}
-                  href=""
+                  href="https://spotify-clone-ochre.vercel.app/login"
                 >
                   Check Project
                 </a>
@@ -226,7 +226,7 @@ function Project(props) {
                   rel="noreferrer"
                   target="_blank"
                   className={style.button1}
-                  href="https://github.com/Sagarbawane/cred-clone"
+                  href="https://github.com/Sagarbawane/spotify-clone"
                 >
                   Get Code
                 </a>
@@ -241,9 +241,8 @@ function Project(props) {
             </div>
             <div className={style.content}>
               <div className={"px-4"}>
-                A sypto is website for Managing crypto portfolios. Fully
-                automated, algorithmic trading and investing experience. Build
-                using nextjs ,jscharting,tailwind
+                A user eats clone develop using web3 ,sanity ,nextjs , mapboxgl
+                etc
               </div>
 
               <div className="my-6 w-full">
@@ -251,9 +250,9 @@ function Project(props) {
                   rel="noreferrer"
                   target="_blank"
                   className={style.button}
-                  href="https://sypto.xyz"
+                  href="https://github.com/Sagarbawane/blockchain-ubereats/"
                 >
-                  Check Project
+                  Check Code
                 </a>
               </div>
             </div>
@@ -266,7 +265,7 @@ function Project(props) {
             </div>
             <div className={style.content}>
               <div className={"px-4"}>
-                This is cred clone project which i develop with reactjs .
+                This is cred clone ui develop using reactjs and css .
               </div>
 
               <div className="my-6 w-full">
@@ -274,7 +273,7 @@ function Project(props) {
                   rel="noreferrer"
                   target="_blank"
                   className={style.button}
-                  href=""
+                  href="https://cred-clone-sagar.netlify.app"
                 >
                   Check Project
                 </a>

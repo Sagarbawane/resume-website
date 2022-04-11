@@ -5,6 +5,7 @@ import AboutUs from "./AboutUs/Aboutus";
 import Experience from "./Experience/Experience";
 import Project from "./Project/Project";
 import Contact from "./Contact/Contact";
+import Skills from "./Skills/Skills";
 
 const All = () => {
   const [color, setColor] = useState();
@@ -18,9 +19,9 @@ const All = () => {
     document.addEventListener("scroll", () => {
       window.scrollY < 300
         ? setColor(one)
-        : window.scrollY < 1400
+        : window.scrollY < 1900
         ? setColor(two)
-        : window.scrollY < 2400
+        : window.scrollY < 3500
         ? setColor(three)
         : setColor(four);
     });
@@ -30,6 +31,7 @@ const All = () => {
       <Navbar />
       <MainPage color={color} />
       <AboutUs color={color} />
+      <Skills color={color} />
       <Experience color={color} />
       <Project color={color} />
       <Contact />
