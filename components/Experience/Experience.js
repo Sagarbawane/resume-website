@@ -31,13 +31,14 @@ const Experience = props => {
             >
               Dr. D. Y. Patil Institute of Engineering, Management &
               Research,pune
+              <span className={"block text-lg"}>(2015-2019)</span>
             </div>
             <div
               className={` text-base md:text-lg font-medium leading-5 text-[#fff] ${style.text2}`}
             >
               <p>
-                I have done my bachelor in electronic and telecommunication from
-                2015 to 2019.
+                I have done my bachelor in electronic and telecommunication With
+                C.G.P.A of 7.6
               </p>
             </div>
           </div>
@@ -50,6 +51,7 @@ const Experience = props => {
               className={` text-sm font-medium leading-5 text-[rgba(255,255,255,0.9)] ${style.text2}`}
             >
               Hudl,india private limited
+              <span className={"block text-lg"}>(Jun 2019 - Feb 2020)</span>
             </div>
             <div
               className={` text-base md:text-lg font-medium leading-5 text-[#fff] ${style.text2}`}
@@ -69,6 +71,7 @@ const Experience = props => {
               className={` text-sm font-medium leading-5 text-[rgba(255,255,255,0.9)] ${style.text2}`}
             >
               Dct Academy
+              <span className={"block text-lg"}>(Feb 2020 - Oct 2020)</span>
             </div>
             <div
               className={` text-base md:text-lg font-medium leading-6 text-[#fff] ${style.text2}`}
@@ -96,6 +99,7 @@ const Experience = props => {
               className={` text-sm font-medium leading-5 text-[rgba(255,255,255,0.9)] ${style.text2}`}
             >
               LivPro software solution
+              <span className={"block text-lg"}>(Oct 2021 - May 2021)</span>
             </div>
             <div
               className={` text-base md:text-lg font-medium leading-5 text-[#fff] ${style.text2}`}
@@ -116,6 +120,7 @@ const Experience = props => {
               className={` text-sm font-medium leading-5 text-[rgba(255,255,255,0.9)] ${style.text2}`}
             >
               Clearmind
+              <span className={"block text-lg"}>(June 2021 - Present)</span>
             </div>
             <div
               className={` text-base md:text-lg font-medium leading-5 text-[#fff] ${style.text2}`}

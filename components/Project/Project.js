@@ -241,7 +241,7 @@ function Project(props) {
             </div>
             <div className={style.content}>
               <div className={"px-4"}>
-                A user eats clone develop using web3 ,sanity ,nextjs , mapboxgl
+                A uber eats clone develop using web3 ,sanity ,nextjs , mapbox-gl
                 etc
               </div>
 
