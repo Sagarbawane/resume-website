@@ -27,7 +27,7 @@ const Aboutus = props => {
                 : "text-[#000]"
             }`}
           >
-            Hi, I’m Sagar Bawane, A Designer & Entrepreneur focused on creating
+            Hi, I’m Sagar Bawane, A Designer & Developer focused on creating
             innovative stuff. Always seeking to{" "}
             <span className={"text-[#f76236]"}>
               {" "}
