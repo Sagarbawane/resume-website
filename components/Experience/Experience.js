@@ -99,7 +99,7 @@ const Experience = props => {
               className={` text-sm font-medium leading-5 text-[rgba(255,255,255,0.9)] ${style.text2}`}
             >
               LivPro software solution
-              <span className={"block text-lg"}>(Oct 2021 - May 2021)</span>
+              <span className={"block text-lg"}>(Oct 2020 - May 2021)</span>
             </div>
             <div
               className={` text-base md:text-lg font-medium leading-5 text-[#fff] ${style.text2}`}
@@ -128,7 +128,7 @@ const Experience = props => {
               <p>
                 A finance base company, where i work as frontend end developer .
                 Here I work on two projects sypto and cycle. the main stack i
-                used was nextjs ,taiwindcss with some other react base
+                used was nextjs ,tailwindcss with some other react base
                 libraries.
               </p>
             </div>
